@@ -4,8 +4,33 @@ body {
 
 li {
     list-style-type: none;
+    
+}
+
+.header li,
+.hero p,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 a {
     text-decoration: none;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
 }
