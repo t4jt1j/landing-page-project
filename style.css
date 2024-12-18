@@ -34,3 +34,14 @@ h1 {
     color: #F9FaF8;
     font-weight: 900;
 }
+
+.quote {
+    background-color: #E5E7EB;
+
+}
+
+#quotation {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
