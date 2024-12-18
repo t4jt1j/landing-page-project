@@ -79,13 +79,20 @@ button,
 .card img {
     border: 5px solid #3882F6;
     border-radius: 15px;
+    width: 40%;
 }
 
 .hero {
     display: flex;
-    align-items: space-between;
+    
 }
 
 .hero img {
     width: 50%;
 }
+
+.gallery {
+    display: flex;
+    
+}
+
