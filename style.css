@@ -51,10 +51,11 @@ h1 {
     color: #1F2937;
 }
 
-.content h2 {
+#galleryh2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
 }
 
 button,
@@ -74,13 +75,14 @@ button {
     border-radius: 15px;
 }
 
-.quote {
-    margin-bottom: 0;
+.hero,
+.content,
+.quote,
+.call {
+    height: 250px;
 }
 
-.cta {
-    margin-top: 0;
-}
+
 
 /* Flexbox Styling */
 
@@ -116,6 +118,28 @@ body {
     width: 50%;
 }
 
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    width: 30%;
+}
+.card p {
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
 
 
 
