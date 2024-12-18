@@ -63,10 +63,23 @@ button,
     background-color: #3882F6;
 }
 
+button {
+    padding: 10px;
+    width: 150px;
+    border-radius: 12px;
+}
 
 .card img {
     border: 5px solid #3882F6;
     border-radius: 15px;
+}
+
+.quote {
+    margin-bottom: 0;
+}
+
+.cta {
+    margin-top: 0;
 }
 
 /* Flexbox Styling */
@@ -74,6 +87,7 @@ button,
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -93,6 +107,9 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     justify-content: space-evenly;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero img {
