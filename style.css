@@ -45,3 +45,9 @@ h1 {
     font-style: italic;
     color: #1F2937;
 }
+
+.content1 h2 {
+    font-size: 36px;
+    color: #1F2937;
+    weight: 900;
+}
